@@ -1,7 +1,7 @@
-# sign_language_detect_from_hand_gesture#
-# Tools and Library #
+# sign_language_detect_from_hand_gesture #
+## Tools and Library ##
 jupyter notebook, tensorflow
-##Dataset Description##
+## Dataset Description ##
 The dataset was taken from kaggle website. https://www.kaggle.com/datamunge/sign-language-mnist which contains The training data (27,455 cases) and test data (7172 cases)
 he original hand gesture image data represented multiple users repeating the gesture against different backgrounds. The Sign Language MNIST data came from greatly extending the small number (1704) of the color images included as not cropped around the hand region of interest. To create new data, an image pipeline was used based on ImageMagick and included cropping to hands-only, gray-scaling, resizing, and then creating at least 50+ variations to enlarge the quantity. The modification and expansion strategy was filters ('Mitchell', 'Robidoux', 'Catrom', 'Spline', 'Hermite'), along with 5% random pixelation, +/- 15% brightness/contrast, and finally 3 degrees rotation. Because of the tiny size of the images, these modifications effectively alter the resolution and class separation in interesting, controllable ways.
 This dataset was inspired by the Fashion-MNIST 2 and the machine learning pipeline for gestures by Sreehari 4.
