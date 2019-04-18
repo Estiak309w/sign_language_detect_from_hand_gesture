@@ -9,5 +9,7 @@ A robust visual recognition algorithm could provide not only new benchmarks that
 ![amer_sign2](https://user-images.githubusercontent.com/23102524/56342884-07e9b680-61db-11e9-9a9c-b2819e9318c6.png)
 
 ## Project Description ##
-A Convolutional Neural Based Model which detect sign language from hand gesture. Image quality was reduced to 28*28 pixel . Activation function softmax,optimizer adam was used. to prevent overfitting dropout 0.2 was kept.Accuracy of the algorithm is **79.44%**.
+A Convolutional Neural Based Model which detect sign language from hand gesture. Image quality was reduced to 28*28 pixel . Activation function softmax,optimizer adam was used. to prevent overfitting dropout 0.2 was kept. Epoch 50 and batch_size 128 was kept to find better accuracy.
+Accuracy of the algorithm is **79.44%**.
 ## here is the accuracy gaining by epochs is shown ##
+![accuracy vs epochs](https://user-images.githubusercontent.com/23102524/56343429-8e52c800-61dc-11e9-83ed-d1146dfe063f.JPG)
